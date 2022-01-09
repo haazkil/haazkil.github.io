@@ -42,10 +42,7 @@
   --z-fixed: 100;
   --z-modal: 100;
 }
-.poto {
-  margin-top: 5rem;
-  margin-left: 2rem;
-}
+
 .active{
   
   border-width: 4px;
@@ -143,7 +140,7 @@ section{
 }
 
 .navbar {
-  background-color: transparent;
+  background-color: #4a839e;
 }
 .homepage {
   background-color: #4a839e;
@@ -224,7 +221,7 @@ box-shadow:  5px -5px 10px #083f68,
 }
 .timeline ul li {
   padding: 20px;
-  background-color: #b5bbb8;
+  background-color: #AFCBFF;
   color: black;
   border-radius: 10px;
   margin-bottom: 20px;
@@ -252,14 +249,14 @@ box-shadow:  5px -5px 10px #083f68,
   letter-spacing: 2px;
 }
 
-@media only screen and (min-width:576px){
+@media only screen and (min-width:350px){
   .timeline::before{
     content: "";
     position: absolute;
     height: 100%;
-    width: 3px;
-    left: 52%;
-    transform: translateX(-45%);
+    width: 10px;
+    left: 51%;
+    
     background-color: rgb(206, 189, 189);
   }
   .timeline ul li {
@@ -272,6 +269,7 @@ box-shadow:  5px -5px 10px #083f68,
     clear: right;
     transform: translateX(-30px);
     border-radius: 20px 0px 20px 20px;
+    text-align: right;
   }
   .timeline ul li:nth-child(even) {
     float: right;
@@ -283,21 +281,21 @@ box-shadow:  5px -5px 10px #083f68,
     content: "";
     position: absolute;
     height: 30px;
-    width: 30px;
-    background-color: #93c8bd;
-    border-radius: 50%;
+    width: 35px;
+    background-color: #afcbff;
+    border-radius: 20%;
     top: 0;
   }
   .timeline ul li:nth-child(odd)::after{
-    transform: translate(50%, -50%);
-    right: -30px;
+    transform: translate(45%, -50%);
+    right: -27px;
   }
   .timeline ul li:nth-child(even)::after{
     transform: translate(-50%, -50%);
     left: -30px;
   }
   .timeline ul li:hover::after{
-    background-color: blue;
+    background-color: #b28dff;
   }
   .timeline_content .date {
     position: absolute;
@@ -310,5 +308,8 @@ box-shadow:  5px -5px 10px #083f68,
 }
 
 .coba{
-  padding: 2rem;
+  padding: 1rem;
+}
+.bx{
+  padding: 1rem;
 }
