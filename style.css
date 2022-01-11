@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Roboto+Condensed&family=Source+Sans+Pro:ital,wght@0,600;1,200;1,600;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Montserrat:wght@300;500&family=Roboto+Condensed&family=Source+Sans+Pro:ital,wght@0,600;1,200;1,600;1,900&display=swap');
 
 :root {
   --header-height: 3rem;
@@ -142,7 +142,7 @@ section{
 }
 
 .section_tittle {
-  font-family: 'Source Sans Pro', sans-serif;;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .navbar {
@@ -311,11 +311,17 @@ box-shadow:  5px -5px 10px #083f68,
 
 .foot {
   background-color: #4a839e;
+  margin-top: -2px;
 }
 
-.coba{
+.coba {
   padding: 1rem;
+  font-family: 'Luxurious Roman', cursive;
 }
 .bx{
   padding: 1rem;
+  font-family: 'Luxurious Roman', cursive;
+}
+.fas {
+  color: #fff;
 }
