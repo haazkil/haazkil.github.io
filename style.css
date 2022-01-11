@@ -48,6 +48,12 @@
   border-width: 4px;
   
 }
+.gelombang {
+  margin-top: -3px;
+}
+.poto{
+  padding: 1rem;
+}
 #navbarNav{
   
   justify-content: end;
