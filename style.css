@@ -301,7 +301,7 @@ box-shadow:  5px -5px 10px #083f68,
     left: -30px;
   }
   .timeline ul li:hover::after{
-    background-color: #b28dff;
+    background-color: #f8a04d;
   }
   .timeline_content .date {
     position: absolute;
